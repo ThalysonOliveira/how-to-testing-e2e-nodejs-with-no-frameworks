@@ -1,0 +1,18 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/api.js",
+    "test:dev": "node --test --watch src/api.test.js",
+    "test": "node --test src/api.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
